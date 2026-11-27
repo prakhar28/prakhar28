@@ -102,6 +102,14 @@ A multi-stage AI pipeline that turns abandoned ticket carts into personalized wi
 
 ---
 
+### ⚡ Live feed
+
+<!--LIVE:START-->
+<sub>The first refresh will appear here shortly.</sub>
+<!--LIVE:END-->
+
+---
+
 ### 🧰 Tech stack
 
 <p align="center">
