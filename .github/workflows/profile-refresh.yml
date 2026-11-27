@@ -1,0 +1,40 @@
+name: Refresh profile feed
+
+on:
+  schedule:
+    - cron: "37 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Random delay (spreads commit times)
+        if: github.event_name == 'schedule'
+        run: sleep $((RANDOM % 4500))
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update README live feed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile.py
+
+      - name: Commit
+        run: |
+          git config user.name "Prakhar Jain"
+          if [ -z "${{ vars.COMMIT_EMAIL }}" ]; then echo "::error::Add a repository variable COMMIT_EMAIL (Settings > Secrets and variables > Actions > Variables)"; exit 1; fi
+          git config user.email "${{ vars.COMMIT_EMAIL }}"
+          git add README.md
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "profile: refresh live feed ($(date -u +%F))"
+          git pull --rebase
+          git push
