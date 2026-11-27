@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/prakhar28/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/prakhar28/ai-trip-planner"><img src="https://img.shields.io/badge/Flagship-Trip_Agent-A78BFA?style=for-the-badge&logo=githubcopilot&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Open_to-AI_%2F_Full--Stack_roles-22C55E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Open_to-AI_%2F_Full--Stack_roles-22C55E?style=for-the-badge&logoColor=white" />
   <img src="https://komarev.com/ghpvc/?username=prakhar28&style=for-the-badge&color=A78BFA&label=PROFILE+VIEWS" />
 </p>
 
@@ -110,7 +110,7 @@ A multi-stage AI pipeline that turns abandoned ticket carts into personalized wi
   <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
   <img src="https://img.shields.io/badge/Tool_Calling-111827?style=flat-square" />
   <img src="https://img.shields.io/badge/Evals-111827?style=flat-square" />
-  <img src="https://img.shields.io/badge/SSE_Streaming-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/SSE_Streaming-111827?style=flat-square&logoColor=white" />
   <br/><br/>
   <img src="https://skillicons.dev/icons?i=python,fastapi,java,spring,nodejs,postgres,redis,sqlite&perline=8" />
 </p>
