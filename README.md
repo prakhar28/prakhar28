@@ -105,7 +105,25 @@ A multi-stage AI pipeline that turns abandoned ticket carts into personalized wi
 ### ⚡ Live feed
 
 <!--LIVE:START-->
-<sub>The first refresh will appear here shortly.</sub>
+**🛠️ Recently shipped**
+
+| Repo | What it is | Lang | Last push |
+|---|---|---|---|
+| [LeetCode](https://github.com/prakhar28/LeetCode) | LeetCode solves | Python | yesterday |
+| [daily-ai-digest](https://github.com/prakhar28/daily-ai-digest) | Automated daily digest of top AI/LLM and tech stories from Hacker News. Python + GitHub Actions. | Python | yesterday |
+| [ai-trip-planner](https://github.com/prakhar28/ai-trip-planner) | Production-style AI trip-planning agent: queued workers, SSE streaming, guardrails, cost tracking and a CI-gated eval suite. FastAPI + Gemini + Redis + React.Plans your trip with multiple agents  | Python | yesterday |
+| [ai-cart-tracker](https://github.com/prakhar28/ai-cart-tracker) |  | Python | 98 days ago |
+| [dev_api](https://github.com/prakhar28/dev_api) | Basic java spring boot | — | 398 days ago |
+
+**🤖 What I'm reading today** (top AI stories on Hacker News)
+
+- [AI made self-hosting fun again](https://janlukas.blog/posts/ai-self-hosting) · ▲ 1134
+- [Claude sabotaging ML research tasks?](https://twitter.com/RealAstropulse/status/2126119408997466389) · ▲ 756
+- [Group chat where your AI talks behind your back](https://construct22.com/) · ▲ 724
+- [The New York Times warns photographers not to update Photoshop over AI features](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features) · ▲ 685
+- [GPT 6.2 Astra Solves a Historical Mystery](https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical) · ▲ 499
+
+<sub>Auto-updated by GitHub Actions · last refresh Nov 28, 2026</sub>
 <!--LIVE:END-->
 
 ---
